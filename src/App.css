@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: transparent;
+}
+
+.App-container {
+  background: #2b5870;
+  color: white;
+  font-size: 80px;
+  padding: 50px 70px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 560px;
+  margin-right: 560px;
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temp-display {
+  display: flex;
+  margin-left: 42px;
+  border-radius: 50%;
+  color: #ffffff;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+}
+
+.btn1{
+  color: #ffffff;
+  background: rgb(105, 104, 104);
+  border: 2px #ffffff solid; 
+  font-size: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn2{
+  color: #ffffff;
+  background: rgb(105, 104, 104);
+  border: 2px #ffffff solid;
+  font-size: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 60px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1:hover{
+  opacity: 0.75;
+}
+
+.btn2:hover{
+  opacity: 0.75;
+}
+
+.cold{
+  background: #035aa6;
+}
+
+.hot{
+  background: rgb(231, 32, 32);
+}
